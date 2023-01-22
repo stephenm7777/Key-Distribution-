@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import datetime
 
-cluster = 'mongodb+srv://stephen7777:twerkteamA12@cluster0.3ja9x3k.mongodb.net/?retryWrites=true&w=majority'
+cluster = 'mongodb+srv://stephen7777:@cluster0.3ja9x3k.mongodb.net/?retryWrites=true&w=majority'
 client = MongoClient(cluster)
 project_database = client["phase_three"]
 building_table = project_database['building']
